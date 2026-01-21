@@ -1,5 +1,5 @@
 name: Periodic Model Calibration
-
+run-name: Model_Calibration
 on: 
   schedule:
     - cron: '0 0 * * *'  #minutes, hours, day, month, day of week 
