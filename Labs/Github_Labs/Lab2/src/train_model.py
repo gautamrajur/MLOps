@@ -81,4 +81,5 @@ if __name__ == '__main__':
         model_filename = f'{model_version}_dt_model.joblib'
         dump(forest, model_filename)
         print(f"Model saved as {model_filename}")
+        print(f"Model saved as {model_filename}")
 
