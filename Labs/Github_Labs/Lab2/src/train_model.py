@@ -80,5 +80,5 @@ if __name__ == '__main__':
         model_version = f'model_{timestamp}'  # Use a timestamp as the version
         model_filename = f'{model_version}_dt_model.joblib'
         dump(forest, model_filename)
-                    
+        print(f"Model saved as {model_filename}")
 
